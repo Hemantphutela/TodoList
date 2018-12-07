@@ -13,6 +13,7 @@
 		4161804F21BA4FFB0050A979 /* TodoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4161804D21BA4FFB0050A979 /* TodoList.xcdatamodeld */; };
 		4161805121BA4FFD0050A979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4161805021BA4FFD0050A979 /* Assets.xcassets */; };
 		4161805421BA4FFD0050A979 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4161805221BA4FFD0050A979 /* LaunchScreen.storyboard */; };
+		41E91EDA21BA64AF00DC4BC9 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E91ED921BA64AF00DC4BC9 /* NotesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4161805021BA4FFD0050A979 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4161805321BA4FFD0050A979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4161805521BA4FFD0050A979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E91ED921BA64AF00DC4BC9 /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				4161805221BA4FFD0050A979 /* LaunchScreen.storyboard */,
 				4161805521BA4FFD0050A979 /* Info.plist */,
 				4161804D21BA4FFB0050A979 /* TodoList.xcdatamodeld */,
+				41E91ED921BA64AF00DC4BC9 /* NotesViewController.swift */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41E91EDA21BA64AF00DC4BC9 /* NotesViewController.swift in Sources */,
 				4161804921BA4FFB0050A979 /* ViewController.swift in Sources */,
 				4161804721BA4FFB0050A979 /* AppDelegate.swift in Sources */,
 				4161804F21BA4FFB0050A979 /* TodoList.xcdatamodeld in Sources */,
